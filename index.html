@@ -18,6 +18,7 @@
       align-items: center;
       display: flex;
       flex-direction: column;
+      justify-content: center;
       height: 100vh;
       margin: 0;
     }
@@ -36,7 +37,6 @@
     input {
       width: 320px;
       height: 32px;
-      padding: 0;
       margin: 4px 0 24px 0;
       border: 1px solid #4e0424;
     }
@@ -63,14 +63,17 @@
 <body>
   <abbr title="Instagram Ana Clara">
     <a href="https://www.instagram.com/anaclaravargs/" target="_blank">
-      <img src="ieu.jpeg" alt="">
+      <img src="ieu.jpeg" alt="ieu">
     </a>
   </abbr>
+
   <div>
     <label for="email">E-mail</label>
-    <input type="text" id="email">
+    <input type="email" id="email">
+
     <label for="senha">Senha</label>
-    <input type="text" id="senha">
+    <input type="password" id="senha">
+
     <button>Entrar</button>
   </div>
 </body>
